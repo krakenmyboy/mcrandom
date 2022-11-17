@@ -23,6 +23,7 @@ class Template(commands.Cog, name="template"):
         name="testcommand",
         description="This is a testing command that does nothing.",
     )
+    @app_commands.guilds(1042688360612888638)
     # This will only allow non-blacklisted members to execute the command
     @checks.not_blacklisted()
     # This will only allow owners of the bot to execute the command -> config.json
@@ -34,11 +35,6 @@ class Template(commands.Cog, name="template"):
         :param context: The application command context.
         """
         print('Testing...')
-    @commands.hybrid_command(
-      name="mcrandom",
-      description="Generate a random order",
-    )
-    @app_commands.guilds(1042688360612888638)
 
 
 # And then we finally add the cog to the bot so that it can load, unload, reload and use it's content.
