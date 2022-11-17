@@ -1,11 +1,10 @@
 {
-  "prefix": "YOUR_BOT_PREFIX_HERE",
-  "token": "YOUR_BOT_TOKEN_HERE",
-  "permissions": "YOUR_BOT_PERMISSIONS_HERE",
-  "application_id": "YOUR_APPLICATION_ID_HERE",
+  "prefix": "mcrandom",
+  "token": "bcb9408b5c012cc2eb4dbd4f0173f81edfcb6c6d4d903b46ac9437a884624a39",
+  "permissions": "377957238848",
+  "application_id": "1042680347885842523",
   "sync_commands_globally": false,
   "owners": [
-    123456789,
-    987654321
+    785920651755520032
   ]
 }
