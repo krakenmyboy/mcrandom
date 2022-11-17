@@ -34,7 +34,7 @@ class Template(commands.Cog, name="template"):
 
         :param context: The application command context.
         """
-        print('Testing...')
+        pass
 
 
 # And then we finally add the cog to the bot so that it can load, unload, reload and use it's content.
