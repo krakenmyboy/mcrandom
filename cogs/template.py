@@ -33,10 +33,7 @@ class Template(commands.Cog, name="template"):
 
         :param context: The application command context.
         """
-        # Do your stuff here
-
-        # Don't forget to remove "pass", I added this just because there's no content in the method.
-        pass
+        print('Testing...')
     @commands.hybrid_command(
       name="mcrandom",
       description="Generate a random order",
