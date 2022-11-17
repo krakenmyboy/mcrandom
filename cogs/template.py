@@ -23,7 +23,6 @@ class Template(commands.Cog, name="template"):
         name="testcommand",
         description="This is a testing command that does nothing.",
     )
-    @app_commands.guilds("1042688360612888638")
     # This will only allow non-blacklisted members to execute the command
     @checks.not_blacklisted()
     # This will only allow owners of the bot to execute the command -> config.json
