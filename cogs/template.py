@@ -37,6 +37,11 @@ class Template(commands.Cog, name="template"):
 
         # Don't forget to remove "pass", I added this just because there's no content in the method.
         pass
+    @commands.hybrid_command(
+      name="mcrandom",
+      description="Generate a random order",
+    )
+    @app_commands.guilds(1042688360612888638)
 
 
 # And then we finally add the cog to the bot so that it can load, unload, reload and use it's content.
